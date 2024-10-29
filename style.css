@@ -1,27 +1,35 @@
-/* Basic styling */
+/* General styling */
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  line-height: 1.6;
   background-color: #f9f9f9;
   margin: 0;
+  line-height: 1.6;
 }
 
 header {
+  text-align: center;
+  padding: 1.5em;
   background-color: #333;
   color: #fff;
-  padding: 1em 0;
-  text-align: center;
 }
 
 header h1 {
   margin: 0;
+  font-size: 2.5em;
+}
+
+header h2 {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+  color: #ccc;
 }
 
 nav a {
   color: #fff;
   margin: 0 1em;
   text-decoration: none;
+  font-weight: bold;
 }
 
 section {
@@ -31,8 +39,45 @@ section {
 }
 
 h2 {
+  font-size: 1.8em;
   color: #333;
   border-bottom: 2px solid #eee;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
 }
 
+/* About Section */
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1em auto;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5em 0;
+}
+
+ul.contact-links {
+  text-align: center;
+}
+
+ul.contact-links li {
+  display: inline;
+  margin: 0 1em;
+}
+
+ul.contact-links a, nav a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
