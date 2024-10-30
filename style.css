@@ -7,6 +7,22 @@
   --gray-brown: #6A5F5B;
 }
 
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+}
+
 /* Header Styling */
 header {
   background-color: var(--deep-brown);
@@ -32,15 +48,17 @@ header {
 }
 
 header h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 1.5rem;
   color: var(--pale-gold);
   margin-bottom: 0.2rem;
 }
 
 header h2 {
-  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  font-size: 0.9rem;
   color: var(--gray-brown);
 }
 
@@ -51,6 +69,8 @@ header h2 {
 }
 
 .header-nav a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   color: var(--muted-green);
   text-decoration: none;
   font-size: 1rem;
@@ -59,4 +79,51 @@ header h2 {
 
 .header-nav a:hover {
   color: var(--burnt-orange);
+}
+
+/* Section Styling */
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Link Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Contact Links */
+.contact-links {
+  list-style: none;
+  text-align: center;
+}
+
+.contact-links li {
+  margin: 0.5rem 0;
 }
