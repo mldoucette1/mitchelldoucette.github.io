@@ -27,8 +27,8 @@ body {
 header {
   background-color: var(--gray-brown);
   color: var(--burnt-orange);
-  padding: 1.5rem 2rem 0.5rem 2rem; /* Reduce bottom padding to bring content closer */
-  height: 200px; /* Keeping the doubled height */
+  padding: 1.5rem 2rem 0.5rem 2rem; /* Reduced bottom padding */
+  height: 200px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -45,7 +45,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 0.5rem; /* Adjusted to reduce vertical space */
+  margin-bottom: 0.5rem;
 }
 
 header h1 {
@@ -66,7 +66,7 @@ header h2 {
 .header-nav {
   display: flex;
   gap: 1.5rem;
-  align-items: flex-end; /* Align to bottom of header */
+  align-items: flex-end;
 }
 
 .header-nav a {
@@ -76,9 +76,55 @@ header h2 {
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
-  margin-bottom: 0.5rem; /* Aligning with adjusted padding */
+  margin-bottom: 0.5rem;
 }
 
 .header-nav a:hover {
   color: var(--burnt-orange);
+}
+
+/* Section Styling */
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 3rem auto;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Link Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Contact Links */
+.contact-links {
+  list-style: none;
+  text-align: center;
+}
+
+.contact-links li {
+  margin: 0.5rem 0;
 }
