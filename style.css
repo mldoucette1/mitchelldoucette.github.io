@@ -25,18 +25,18 @@ body {
 
 /* Header Styling */
 header {
-  background-color: var(--deep-brown);
-  color: var(--pale-gold);
-  padding: 2rem;
-  height: 150px;
+  background-color: var(--gray-brown);
+  color: var(--burnt-orange);
+  padding: 1.5rem 2rem;
+  height: 100px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
 .header-content {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
   justify-content: space-between;
 }
@@ -51,7 +51,7 @@ header h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color: var(--pale-gold);
+  color: var(--burnt-orange);
   margin-bottom: 0.2rem;
 }
 
@@ -59,12 +59,12 @@ header h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
-  color: var(--gray-brown);
+  color: var(--muted-green);
 }
 
 .header-nav {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -79,51 +79,4 @@ header h2 {
 
 .header-nav a:hover {
   color: var(--burnt-orange);
-}
-
-/* Section Styling */
-section {
-  padding: 4rem 2rem;
-  max-width: 800px;
-  margin: auto;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-  opacity: 0.9;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-section:hover {
-  transform: scale(1.01);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.profile-image {
-  border-radius: 50%;
-  width: 150px;
-  display: block;
-  margin: 1rem auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* Link Styling */
-a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #0056b3;
-}
-
-/* Contact Links */
-.contact-links {
-  list-style: none;
-  text-align: center;
-}
-
-.contact-links li {
-  margin: 0.5rem 0;
 }
