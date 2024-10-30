@@ -27,16 +27,16 @@ body {
 header {
   background-color: var(--gray-brown);
   color: var(--burnt-orange);
-  padding: 1.5rem 2rem;
-  height: 100px;
+  padding: 2rem;
+  height: 200px; /* Doubling the height */
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
 .header-content {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
   justify-content: space-between;
 }
@@ -45,6 +45,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 1rem; /* Adjusted to move title up within header */
 }
 
 header h1 {
@@ -64,8 +65,8 @@ header h2 {
 
 .header-nav {
   display: flex;
-  gap: 2rem;
-  align-items: center;
+  gap: 1.5rem;
+  align-items: flex-end; /* Align to bottom of header */
 }
 
 .header-nav a {
@@ -75,6 +76,7 @@ header h2 {
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
+  margin-bottom: 1rem; /* Aligning with h2 */
 }
 
 .header-nav a:hover {
