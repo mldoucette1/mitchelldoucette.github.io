@@ -27,8 +27,8 @@ body {
 header {
   background-color: var(--gray-brown);
   color: var(--burnt-orange);
-  padding: 2rem;
-  height: 200px; /* Doubling the height */
+  padding: 1.5rem 2rem 0.5rem 2rem; /* Reduce bottom padding to bring content closer */
+  height: 200px; /* Keeping the doubled height */
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -45,7 +45,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 1rem; /* Adjusted to move title up within header */
+  margin-bottom: 0.5rem; /* Adjusted to reduce vertical space */
 }
 
 header h1 {
@@ -53,7 +53,7 @@ header h1 {
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--burnt-orange);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
 }
 
 header h2 {
@@ -76,21 +76,9 @@ header h2 {
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
-  margin-bottom: 1rem; /* Aligning with h2 */
+  margin-bottom: 0.5rem; /* Aligning with adjusted padding */
 }
 
 .header-nav a:hover {
   color: var(--burnt-orange);
-}
-
-/* Section Spacing Adjustment */
-section {
-  padding: 4rem 2rem;
-  max-width: 800px;
-  margin: -2rem auto 2rem auto; /* Adjusted to reduce space below header */
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0.9;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
