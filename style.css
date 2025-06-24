@@ -208,3 +208,43 @@ a:hover::after {
     text-align: center;
   }
 }
+
+#expertise {
+  padding: 4rem 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 1000px;
+  margin: 0 auto 3rem auto;
+}
+
+.grid-expertise {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.expertise-box {
+  background-color: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  transition: transform 0.3s ease;
+}
+
+.expertise-box:hover {
+  transform: translateY(-5px);
+}
+
+.expertise-box h3 {
+  font-size: 1.1rem;
+  color: var(--dark-blue);
+  margin-bottom: 0.75rem;
+}
+
+.expertise-box p {
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  line-height: 1.5;
+}
