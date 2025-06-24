@@ -1,10 +1,10 @@
 /* Color Palette */
 :root {
-  --deep-brown: #29211F;
-  --muted-green: #798E87;
-  --burnt-orange: #C27D38;
-  --pale-gold: #CCC591;
-  --gray-brown: #6A5F5B;
+  --dark-blue: #1F2A44;
+  --accent-blue: #3F8CFF;
+  --light-gray: #F5F7FA;
+  --mid-gray: #A6AAB4;
+  --dark-gray: #3C3F46;
 }
 
 /* Basic Reset */
