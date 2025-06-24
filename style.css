@@ -23,6 +23,14 @@ body {
   line-height: 1.6;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
 /* Header Styling */
 header {
   background-color: var(--gray-brown);
