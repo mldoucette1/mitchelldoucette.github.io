@@ -29,10 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const btn = document.getElementById("back-to-top");
-window.addEventListener("scroll", () => {
-  btn.style.display = window.scrollY > 300 ? "block" : "none";
+// Back-to-Top button logic
+const backBtn = document.getElementById('back-to-top');
+
+window.addEventListener('scroll', () => {
+  backBtn.style.display = window.scrollY > 200 ? 'block' : 'none';
 });
-btn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+
+backBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
