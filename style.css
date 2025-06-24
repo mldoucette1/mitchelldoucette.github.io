@@ -140,3 +140,15 @@ a:hover::after {
   display: inline-block;
   margin: 0 1rem;
 }
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--mid-gray);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+}
