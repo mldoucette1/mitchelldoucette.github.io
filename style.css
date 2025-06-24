@@ -452,7 +452,7 @@ a:hover::after {
 }
 
 #media h2 {
-  text-align: center;
+  text-align: left;
   color: var(--dark-blue);
   margin-bottom: 2rem;
 }
