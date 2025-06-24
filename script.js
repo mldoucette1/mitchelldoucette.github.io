@@ -12,3 +12,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Enable tap-to-flip for publication cards
+  document.querySelectorAll(".pub-flip-card").forEach(function (card) {
+    card.addEventListener("click", function () {
+      this.querySelector(".pub-flip-inner").classList.toggle("flipped");
+    });
+  });
+
+  // Enable tap-to-flip for expertise cards (if using same flip logic)
+  document.querySelectorAll(".flip-card").forEach(function (card) {
+    card.addEventListener("click", function () {
+      this.querySelector(".flip-inner").classList.toggle("flipped");
+    });
+  });
+});
