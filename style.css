@@ -551,29 +551,4 @@ a:hover::after {
   color: var(--gray-brown);
 }
 
-/* Back-to-Top Button */
-#back-to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background: var(--accent-blue);
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1rem;
-  font-size: 1.25rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  opacity: 0.6;
-  display: none;
-  transition: opacity 0.3s ease;
-  z-index: 1000;
-}
 
-#back-to-top:hover {
-  opacity: 1;
-}
-
-/* Smooth scrolling behavior (optional) */
-html {
-  scroll-behavior: smooth;
-}
