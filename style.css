@@ -551,3 +551,38 @@ a:hover::after {
   color: var(--gray-brown);
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--accent-blue);
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  display: none;
+  z-index: 1000;
+}
+
+#back-to-top:hover {
+  opacity: 1;
+}
+
+footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: var(--light-gray);
+  color: var(--mid-gray);
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+
