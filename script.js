@@ -29,14 +29,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Back-to-Top button logic
-const backBtn = document.getElementById('back-to-top');
-
-window.addEventListener('scroll', () => {
-  backBtn.style.display = window.scrollY > 200 ? 'block' : 'none';
-});
-
-backBtn.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-
