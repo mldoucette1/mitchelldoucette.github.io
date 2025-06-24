@@ -158,9 +158,11 @@ a:hover::after {
 @media screen and (max-width: 768px) {
 
   header {
+    position: relative; /* Removes sticky on mobile */
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+    border-bottom: 1px solid var(--mid-gray);
   }
 
   header h1 {
@@ -208,7 +210,6 @@ a:hover::after {
     text-align: center;
   }
 }
-
 #expertise {
   padding: 4rem 2rem;
   background-color: var(--white);
@@ -550,29 +551,4 @@ a:hover::after {
 .contact-links li a:hover {
   color: var(--gray-brown);
 }
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 1.5rem;
-  }
-
-  .header-nav {
-    flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-
-  .header-nav a {
-    font-size: 0.95rem;
-  }
-
-  header h1 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-  }
-}
-
 
