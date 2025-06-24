@@ -1,76 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mitchell Doucette | Public Health Researcher</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header Section -->
   <header>
-    <div class="header-content">
-      <div class="name-title">
-        <h1>Mitchell L. Doucette, PhD, MS</h1>
-        <h2>Public Health Researcher & Epidemiologist</h2>
-      </div>
-      <nav class="header-nav">
-        <a href="#about">About Me</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <h1>Mitchell L. Doucette, PhD</h1>
+    <nav class="header-nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <!-- About Me Section -->
-  <section id="about" data-aos="fade-up">
-    <h2>About Me</h2>
-    <img src="https://github.com/mldoucette1/mitchelldoucette.github.io/raw/main/IMG_1597%20copy.jpg" alt="Photo of Mitchell Doucette" class="profile-image">
-    <p>Dr. Mitchell L. Doucette is a seasoned public health researcher with extensive expertise in injury epidemiology, firearms policy, and medical cannabis. As the Senior Research Director at Leafwell and a Faculty Associate at Johns Hopkins Bloomberg School of Public Health, he leads complex, mission-driven research on health outcomes and policy, with a focus on causal inference and epidemiological methods. His work, widely published and featured in major media outlets, has significantly impacted public health and policy, including citations in landmark legal decisions.</p>
-  </section>
+  <main>
+    <section id="about" data-aos="fade-up">
+      <img src="Doucette_Headshot.jpg" alt="Mitchell Doucette" class="profile-image" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Dr. Mitchell L. Doucette is a seasoned public health researcher with expertise in injury epidemiology, firearms policy, and medical cannabis. As Senior Research Director at Leafwell and Faculty Associate at Johns Hopkins Bloomberg School of Public Health, he leads research on causal inference and health outcomes. His work is widely published and has been cited in landmark legal cases and public health policy.</p>
+      </div>
+    </section>
 
-  <!-- Research Section -->
-  <section id="research" data-aos="fade-up">
-    <h2>Research</h2>
-    <ul>
-      <li><a href="https://scholar.google.com/citations?user=OJIdIyYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a></li>
-      <li><a href="#firearms-policy">Firearms Policy</a></li>
-      <li><a href="#medical-cannabis">Medical Cannabis Research</a></li>
-      <li><a href="#injury-epidemiology">Injury Epidemiology</a></li>
-    </ul>
-  </section>
+    <section id="research" data-aos="fade-up">
+      <h2>Research Areas</h2>
+      <ul>
+        <li><a href="#firearms-policy">Firearms Policy</a></li>
+        <li><a href="#medical-cannabis">Medical Cannabis</a></li>
+        <li><a href="#injury-epidemiology">Injury Epidemiology</a></li>
+        <li><a href="https://scholar.google.com/citations?user=OJIdIyYAAAAJ" target="_blank">Google Scholar</a></li>
+      </ul>
+    </section>
 
-  <!-- Publications Section -->
-  <section id="publications" data-aos="fade-up">
-    <h2>Publications</h2>
-    <ul>
-      <li><a href="https://example.com/publication1" target="_blank" rel="noopener noreferrer">Title of Publication 1</a></li>
-      <li><a href="https://example.com/publication2" target="_blank" rel="noopener noreferrer">Title of Publication 2</a></li>
-    </ul>
-  </section>
+    <section id="publications" data-aos="fade-up">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li><a href="#">Title of Publication 1</a></li>
+        <li><a href="#">Title of Publication 2</a></li>
+      </ul>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" data-aos="fade-up">
-    <h2>Contact</h2>
-    <p>Connect with me:</p>
-    <ul class="contact-links">
-      <li><a href="https://www.linkedin.com/in/mitchell-l-doucette-phd-ms-7623a238" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-      <li><a href="mailto:mldoucette1@gmail.com">Email</a></li>
-    </ul>
-  </section>
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Connect with me:</p>
+      <ul class="contact-links">
+        <li><a href="https://www.linkedin.com/in/mitchell-l-doucette-phd-ms-7623a238" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:mldoucette1@gmail.com">Email</a></li>
+      </ul>
+    </section>
+  </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="script.js"></script>
   <script>
-    AOS.init({
-      duration: 800,  // duration of the animation
-      easing: 'ease-in-out',  // smooth transition effect
-      once: true  // animation happens only once
-    });
+    AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
   </script>
 </body>
 </html>
