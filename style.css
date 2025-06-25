@@ -402,7 +402,7 @@ a:hover::after {
   max-height: 160px;
   overflow: hidden;
   border-radius: 8px;
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
 }
 
 .pub-image img {
