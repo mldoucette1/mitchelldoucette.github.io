@@ -538,21 +538,20 @@ a:hover::after {
 
 .contact-links {
   list-style: none;
-  padding: 0;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin-top: 1rem;
 }
 
 .contact-links li a {
-  font-size: 1.1rem;
-  color: var(--burnt-orange);
   text-decoration: none;
   font-weight: 500;
+  color: var(--dark-blue);
   transition: color 0.3s ease;
 }
 
 .contact-links li a:hover {
-  color: var(--gray-brown);
+  color: var(--accent-blue);
 }
-
