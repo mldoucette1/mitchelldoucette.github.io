@@ -158,29 +158,39 @@ a:hover::after {
 @media screen and (max-width: 768px) {
 
   header {
-    position: fixed; /* Let it scroll away naturally */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     background-color: var(--white);
     padding: 0.75rem 1rem;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid var(--mid-gray);
   }
 
   header h1 {
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
+    text-align: center;
   }
 
   .header-nav {
-    display: none; /* Hide nav by default */
+    display: flex; /* No longer hidden */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0.25rem;
   }
 
-  /* OPTIONAL: Show nav on scroll up or via a button (future idea) */
+  .header-nav a {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+  }
 
   .profile-image {
     float: none;
@@ -195,7 +205,7 @@ a:hover::after {
 
   main {
     padding: 1rem 1rem;
-    margin-top: 70px; /* Ensure content isn't hidden behind header */
+    margin-top: 90px; /* Adjust based on new fixed header height */
   }
 
   section {
@@ -212,6 +222,7 @@ a:hover::after {
     text-align: center;
   }
 }
+
 
 
 #expertise {
