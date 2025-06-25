@@ -536,22 +536,26 @@ a:hover::after {
   margin-bottom: 2rem;
 }
 
-.contact-links {
+/* New icon link styling */
+.contact-icons {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  justify-content: flex-start;
+  gap: 1.5rem;
   padding: 0;
   margin-top: 1rem;
 }
 
-.contact-links li a {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--dark-blue);
-  transition: color 0.3s ease;
+.contact-icons li a img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%);
 }
 
-.contact-links li a:hover {
-  color: var(--accent-blue);
+.contact-icons li a img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
 }
