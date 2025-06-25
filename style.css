@@ -457,7 +457,7 @@ a:hover::after {
 }
 
 #media h2 {
-  text-align: left;
+  text-align: center;
   color: var(--dark-blue);
   margin-bottom: 2rem;
 }
@@ -521,7 +521,7 @@ a:hover::after {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   max-width: 800px;
   margin: 0 auto 3rem auto;
-  text-align: left;
+  text-align: center;
 }
 
 #contact h2 {
